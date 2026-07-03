@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dual-grp.github.io/dual/sitemap.xml
+Sitemap: https://dual-grp.github.io/sitemap.xml
