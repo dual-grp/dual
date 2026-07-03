@@ -9,7 +9,7 @@ nav_order: 4
 
 We welcome collaboration opportunities, research inquiries, and discussions about artificial intelligence, federated learning, distributed optimization, and large language models.
 
-For questions about collaboration or joining the group, contact us at [dual.group@sydney.edu.au](mailto:dual.group@sydney.edu.au).
+For questions about collaboration or joining the group, contact us at [nguyen.tran@sydney.edu.au](mailto:nguyen.tran@sydney.edu.au).
 
 ## Location
 
