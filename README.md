@@ -29,14 +29,16 @@ Then open `http://localhost:8080`.
 The default deployment target is GitHub Pages:
 
 ```text
-https://dual-grp.github.io/dual/
+https://dual-grp.github.io
 ```
 
-For this project-page deployment, `_config.yml` should use:
+For this root-domain deployment, `_config.yml` should use:
 
 ```yaml
 url: https://dual-grp.github.io
-baseurl: /dual
+baseurl:
 ```
+
+This requires publishing the site as the DUAL Group organization site, usually from a repository named `dual-grp.github.io`.
 
 The future preferred institutional domain is `dual.sydney.edu.au`, pending University of Sydney DNS approval and configuration.
