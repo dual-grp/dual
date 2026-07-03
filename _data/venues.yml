@@ -1,9 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"TON":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90
+  color: "#00629b"
 
-"Vision":
-  color: "#009f36"
+"TNNLS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385
+  color: "#00629b"
+
+"INFOCOM":
+  url: https://infocom2026.ieee-infocom.org/
+  color: "#00a6d6"
+
+"MONET":
+  url: https://link.springer.com/journal/11036
+  color: "#6f9e02"

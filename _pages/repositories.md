@@ -2,14 +2,16 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: GitHub organization and repositories for the DUAL Group.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
-{% if site.data.repositories.github_users %}
+## GitHub Organization
 
-## GitHub users
+The DUAL Group maintains its code and project repositories under the [dual-grp GitHub organization](https://github.com/dual-grp).
+
+{% if site.data.repositories.github_users %}
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -39,7 +41,7 @@ nav_order: 4
 
 ## GitHub Repositories
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<div class="repositories row row-cols-1 row-cols-md-2 g-3 align-items-stretch">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}

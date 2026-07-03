@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+<div class="row align-items-start mb-4">
+  <div class="col-md-4 mb-3 mb-md-0">
+    {% if page.image %}
+      <img class="img-fluid rounded z-depth-1" src="{{ page.image | relative_url }}" alt="{{ page.name }}">
+    {% endif %}
+  </div>
+  <div class="col-md-8">
+    {% if page.description %}
+      <p class="lead">{{ page.description }}</p>
+    {% endif %}
+    {% include member_links.liquid links=page.links %}
+  </div>
+</div>
+
+{{ content }}
