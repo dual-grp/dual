@@ -4,6 +4,10 @@ name: Canh T. Dinh
 image: assets/img/team/canh.jpg
 role: alumni
 description: Machine Learning Engineer at Canva, Australia; PhD
+links:
+  github: https://github.com/CharlieDinh
+  email: canh.dinh@sydney.edu.au
+  google-scholar: https://scholar.google.com/citations?user=L3bMES0AAAAJ&hl=en
 layout: member
 ---
 Dr. Canh T. Dinh is a **Machine Learning Engineer at Canva (Australia)** and holds a **PhD from the University of Sydney**. His research focuses on **federated learning**, **optimization**, **machine learning**, and **hardware acceleration**. He is best known for his work on **Personalized Federated Learning with Moreau Envelopes**, a highly cited NeurIPS 2020 paper that has influenced both the theoretical and practical development of personalized distributed learning systems.
