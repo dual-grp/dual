@@ -19,7 +19,7 @@ nav_order: 3
     </p>
   </header>
 
-{% assign role_groups = "professor:Leadership|phd:PhD researchers|mphil:MPhil researchers|research-pathway:Research pathway|honours:Honours students|alumni:Alumni" | split: "|" %}
+{% assign role_groups = "professor:Principal Investigator|phd:PhD researchers|mphil:MPhil researchers|research-pathway:Research pathway|honours:Honours students|alumni:Alumni" | split: "|" %}
 
   <div class="dual-people__groups">
     {% for role_group in role_groups %}
